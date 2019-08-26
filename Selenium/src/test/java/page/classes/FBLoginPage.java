@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
+public class FBLoginPage {
 	WebDriver driver;
 
 	// Members
@@ -18,7 +18,7 @@ public class LoginPage {
 	@FindBy(id = "u_0_2")
 	WebElement login;
 
-	public LoginPage(WebDriver driver) {
+	public FBLoginPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}

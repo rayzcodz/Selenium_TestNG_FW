@@ -6,7 +6,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class AmazonHomePage {
+public class AmazonLoginPage {
 	
 	WebDriver driver;
 	Actions actions;
@@ -35,7 +35,7 @@ public class AmazonHomePage {
 	
 	
 	//Initializing AmazonHomePage elements
-	public AmazonHomePage(WebDriver driver) {
+	public AmazonLoginPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}

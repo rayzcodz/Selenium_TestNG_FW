@@ -5,17 +5,17 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import page.classes.AmazonHomePage;
-import page.classes.LoginPage;
+import page.classes.AmazonLoginPage;
+import page.classes.FBLoginPage;
 import testbase.TestBase;
 
-public class AmazonHomePageTest extends TestBase {
+public class AmazonLoginPageTest extends TestBase {
 	
-	AmazonHomePage pg;
+	AmazonLoginPage pg;
 
 	@BeforeClass
 	public void navigate() {
-		pg = new AmazonHomePage(driver);
+		pg = new AmazonLoginPage(driver);
 		driver.get("https://www.amazon.com");
 		
 	}
