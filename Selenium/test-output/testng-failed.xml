@@ -3,14 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.classes.LoginPageTest">
+      <class name="test.classes.AmazonHomePageTest">
         <methods>
+          <include name="enterPasswordTest"/>
           <include name="setUp"/>
-          <include name="loginTest"/>
-          <include name="navigate"/>
           <include name="tearDown"/>
+          <include name="navigate"/>
+          <include name="displaySignInBoxTest"/>
+          <include name="enterUsernameTest"/>
         </methods>
-      </class> <!-- test.classes.LoginPageTest -->
+      </class> <!-- test.classes.AmazonHomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
