@@ -10,6 +10,13 @@ public class AmazonLoginPage {
 	
 	WebDriver driver;
 	Actions actions;
+	
+	
+	//Initializing AmazonHomePage elements
+	public AmazonLoginPage(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
 
 	
 	//Members
@@ -28,17 +35,6 @@ public class AmazonLoginPage {
 	@FindBy(id = "signInSubmit")
 	WebElement signInButtonB;
 	
-	
-	
-	
-	
-	
-	
-	//Initializing AmazonHomePage elements
-	public AmazonLoginPage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
-	}
 	
 	//Actions/methods
 	
