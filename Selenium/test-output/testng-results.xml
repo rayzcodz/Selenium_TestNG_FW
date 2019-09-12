@@ -1,41 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11147" started-at="2019-08-26T04:06:38Z" finished-at="2019-08-26T04:06:49Z">
+  <suite name="Default suite" duration-ms="162305" started-at="2019-08-28T16:59:15Z" finished-at="2019-08-28T17:01:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11147" started-at="2019-08-26T04:06:38Z" finished-at="2019-08-26T04:06:49Z">
-      <class name="test.classes.AmazonHomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.classes.AmazonHomePageTest@754ba872]" name="setUp" is-config="true" duration-ms="1712" started-at="2019-08-26T04:06:38Z" finished-at="2019-08-26T04:06:40Z">
+    <test name="Default test" duration-ms="162305" started-at="2019-08-28T16:59:15Z" finished-at="2019-08-28T17:01:58Z">
+      <class name="test.classes.AmazonHomePageLinksTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.classes.AmazonHomePageLinksTest@31a5c39e]" name="setUp" is-config="true" duration-ms="1686" started-at="2019-08-28T16:59:15Z" finished-at="2019-08-28T16:59:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="navigate()[pri:0, instance:test.classes.AmazonHomePageTest@754ba872]" name="navigate" is-config="true" duration-ms="2485" started-at="2019-08-26T04:06:40Z" finished-at="2019-08-26T04:06:42Z">
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:test.classes.AmazonHomePageLinksTest@31a5c39e]" name="navigateTo" is-config="true" duration-ms="2302" started-at="2019-08-28T16:59:17Z" finished-at="2019-08-28T16:59:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigate -->
-        <test-method status="PASS" signature="displaySignInBoxTest()[pri:1, instance:test.classes.AmazonHomePageTest@754ba872]" name="displaySignInBoxTest" duration-ms="860" started-at="2019-08-26T04:06:42Z" finished-at="2019-08-26T04:06:43Z">
+        </test-method> <!-- navigateTo -->
+        <test-method status="PASS" signature="testAllLinks()[pri:1, instance:test.classes.AmazonHomePageLinksTest@31a5c39e]" name="testAllLinks" duration-ms="156103" started-at="2019-08-28T16:59:19Z" finished-at="2019-08-28T17:01:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- displaySignInBoxTest -->
-        <test-method status="PASS" signature="enterUsernameTest()[pri:2, instance:test.classes.AmazonHomePageTest@754ba872]" name="enterUsernameTest" duration-ms="221" started-at="2019-08-26T04:06:43Z" finished-at="2019-08-26T04:06:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterUsernameTest -->
-        <test-method status="PASS" signature="enterPasswordTest()[pri:3, instance:test.classes.AmazonHomePageTest@754ba872]" name="enterPasswordTest" duration-ms="113" started-at="2019-08-26T04:06:43Z" finished-at="2019-08-26T04:06:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterPasswordTest -->
-        <test-method status="PASS" signature="clickSignInButtonB()[pri:4, instance:test.classes.AmazonHomePageTest@754ba872]" name="clickSignInButtonB" duration-ms="3526" started-at="2019-08-26T04:06:43Z" finished-at="2019-08-26T04:06:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickSignInButtonB -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.classes.AmazonHomePageTest@754ba872]" name="tearDown" is-config="true" duration-ms="2210" started-at="2019-08-26T04:06:47Z" finished-at="2019-08-26T04:06:49Z">
+        </test-method> <!-- testAllLinks -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.classes.AmazonHomePageLinksTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="2197" started-at="2019-08-28T17:01:56Z" finished-at="2019-08-28T17:01:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- test.classes.AmazonHomePageTest -->
+      </class> <!-- test.classes.AmazonHomePageLinksTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
